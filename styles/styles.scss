@@ -36,11 +36,11 @@
     --color-grey-5: #f8f8f8;
     --color-grey-6: #12181b;
     --text-primary-color: #f3f0f0;
-    background: url(./img/bgDark.svg) no-repeat fixed center/cover;
+    background: url("./img/bgDark.svg") no-repeat fixed center/cover;
 }
 
 body {
-    background: url(./img/bgChaNail.svg) no-repeat fixed center/cover;
+    background: url("./img/bgChaNail.svg") no-repeat fixed center/cover;
     font-family: 'Dancing Script', cursive;
     color: var(--text-primary-color);
     transition: all .4s ease-in-out;
