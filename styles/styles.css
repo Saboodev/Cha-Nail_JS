@@ -22,11 +22,11 @@
   --color-black: #171D1C;
   --color-grey: #454e56;
   --text-primary-color: #f3f0f0;
-  background: url("./img/bgDark.jpg") no-repeat fixed center/cover;
+  background: url("../img/bgDark.svg") no-repeat fixed center/cover;
 }
 
 body {
-  background: url("/img/bgChaNail.jpg") no-repeat fixed center/cover;
+  background: url("../img/bgChaNail.svg") no-repeat fixed center/cover;
   font-family: "Dancing Script", cursive;
   color: var(--text-primary-color);
   transition: all 0.4s ease-in-out;
