@@ -243,15 +243,14 @@ section {
   grid-gap: 0.8rem;
   margin-top: 3rem;
 }
-.gallery .picture {
-  position: relative;
-  border-radius: 15px;
-}
 .gallery .picture img {
-  width: 100%;
+  width: 20rem;
+  height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 15px;
+  -o-object-position: center top;
+     object-position: center top;
+  border-radius: 50%;
 }
 
 #list-presta {
