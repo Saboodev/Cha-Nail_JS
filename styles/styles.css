@@ -104,6 +104,8 @@ section {
   z-index: 10;
   top: 50%;
   right: 3%;
+  gap: 0.5rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,7 +137,7 @@ section {
 }
 
 .theme-btn {
-  top: 5%;
+  top: 2%;
   right: 3%;
   width: 70px;
   height: 70px;
@@ -254,6 +256,10 @@ section {
   border-radius: 15px;
 }
 
+.del {
+  text-align: center;
+}
+
 #list-presta {
   margin: 2rem auto 4rem;
   width: 50%;
@@ -298,6 +304,7 @@ section {
   font-size: 3rem;
 }
 .contact-content-con .left-contact h4 {
+  width: 8rem;
   font-size: 1.5rem;
   text-shadow: 3px 5px 5px var(--color-secondary);
   text-decoration: underline;
@@ -308,20 +315,22 @@ section {
   margin: 1rem 0;
   line-height: 2rem;
 }
-.contact-content-con .left-contact .contact-info .contact-item {
+.contact-content-con .left-contact .contact-card .contact-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.contact-content-con .left-contact .contact-info .contact-item .contact-text {
+.contact-content-con .left-contact .contact-card .contact-info .contact-text {
   margin: 0.3rem 0;
   padding: 0 !important;
+  width: 12rem;
+  font-size: 1.3rem;
 }
-.contact-content-con .left-contact .contact-info .contact-item .icon {
+.contact-content-con .left-contact .contact-card .contact-info .icon {
   display: grid;
   grid-template-columns: 40px 1fr;
 }
-.contact-content-con .left-contact .contact-info .contact-item .icon i {
+.contact-content-con .left-contact .contact-card .contact-info .icon i {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
@@ -436,22 +445,22 @@ footer a {
     height: 300px;
     border: none;
   }
-  .contact-item {
+  .contact-info {
     flex-direction: column;
     margin: 1rem 0;
   }
-  .contact-item p {
+  .contact-info p {
     font-size: 1.3rem;
     color: var(--text-primary-color);
     text-align: center;
   }
-  .contact-item span {
+  .contact-info span {
     font-size: 15px;
   }
-  .contact-item .icon {
+  .contact-info .icon {
     grid-template-columns: 25px 1fr;
   }
-  .contact-content-con .left-contact .contact-info .contact-item .contact-text {
+  .contact-content-con .left-contact .contact-card .contact-info .contact-text {
     margin: 1rem 0 0.3rem 2rem;
     padding: 0 !important;
   }
