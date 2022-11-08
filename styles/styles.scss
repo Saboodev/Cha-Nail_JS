@@ -22,11 +22,11 @@
     --color-black: #171D1C;
     --color-grey: #454e56;
     --text-primary-color: #f3f0f0;
-    background: url("/img/bgDark.svg") no-repeat fixed center/cover;
+    background: url("./img/bgDark.svg") no-repeat fixed center/cover;
 }
 
 body {
-    background: url("/img/bgChaNail.svg") no-repeat fixed center/cover;
+    background: url("./img/bgChaNail.svg") no-repeat fixed center/cover;
     font-family: 'Dancing Script', cursive;
     color: var(--text-primary-color);
     transition: all .4s ease-in-out;
@@ -373,6 +373,57 @@ footer {
       color: var(--text-primary-color);
       padding-left: 1rem;
     }
+}
+
+#modal-bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(239, 217, 230, 0.8);
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-bg.active {
+    display: flex;
+}
+
+#modal-content {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#modal-img {
+    width: 80%;
+    height: auto;
+}
+
+#modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#modal-close:hover {
+    background-color: orange;
 }
 
 @import './media';
