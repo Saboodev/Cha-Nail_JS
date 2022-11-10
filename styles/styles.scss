@@ -74,8 +74,7 @@ section {
 
 .container {
     display: none;
-    transform: translateY(-100%) scale(0);
-    transition: all .4s ease-in-out;
+
 }
 
 .active {
@@ -289,10 +288,9 @@ section {
     font-size: 40px;
     cursor: pointer;
     transition: background-color 0.2s ease;
-}
-
-#modal-close:hover {
-    background-color: var(--color-secondary);
+    :hover {
+        background-color: var(--color-secondary);
+    }
 }
 
 // prix & presta
