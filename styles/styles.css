@@ -287,20 +287,14 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(50%, -50%);
-  height: 40px;
-  width: 40px;
+  transform: translate(-25%, -60%);
   border-radius: 50%;
-  background-color: var(--pink-2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 40px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
 }
 #modal-close :hover {
   background-color: var(--color-secondary);
+  border-radius: 50%;
 }
 
 .btn-flyer {
